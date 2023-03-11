@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "04-course-class-work-poetry"
+version = "0.1.0"
+description = ""
+authors = ["DSulzhits <dsulzhits@gmail.com>"]
+readme = "README.md"
+packages = [{include = "04_course_class_work_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
